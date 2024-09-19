@@ -3,12 +3,12 @@ ruby '>3'
 
 gem 'sinatra', '>= 2.0.2'
 gem 'sinatra-flash', '0.3.0'
-
+gem 'rackup'
 group :development, :test do
   gem 'cucumber', '2.0.0'
   gem 'cucumber-sinatra', '0.5.0'
   gem 'capybara', '3.1'
-  gem 'rackup'
+  
   gem 'rspec', '3.3.0'
   gem 'rspec-autotest', '1.0.0'
 
